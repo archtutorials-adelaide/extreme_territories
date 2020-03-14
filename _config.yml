@@ -8,9 +8,9 @@
 baseurl: "/template_site" # the subpath of your site, replace with the name of the github repository where you will host your site
 url: "" # the base hostname & protocol for your site, e.g. http://github-username.io
 
-title: Course Title
-author: Professor's Names
-externallink: columbia.edu #can include an external url here
+title: Extreme Territories | LARCH7031 | Grasshopper Tutorials
+author: Victor Calixto, Juliana Croffi, and Dr.Carlos Barteshagi Koc
+externallink: adelaide.edu.au #can include an external url here
 description:  >- # this means to ignore newlines until "baseurl:"
   You can add a description of your course or project here. It should be about this long or shorter.
 

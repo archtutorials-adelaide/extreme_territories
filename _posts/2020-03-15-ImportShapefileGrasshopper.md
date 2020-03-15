@@ -35,4 +35,6 @@ To install the *Legend Settings* component, download [`Legend_Settings.ghuser`](
 
 ![](/extreme_territories/images/install_legend.gif?raw=true)
 
+### 2 Preparing shapefiles in QGis
+
 

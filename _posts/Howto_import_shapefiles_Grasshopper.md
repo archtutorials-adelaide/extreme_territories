@@ -5,4 +5,9 @@ image: "/extreme_territories/images/csr_thumbnail.png"
 title:  "How to import a shapefile into Grasshopper using Urbano"
 author: "Victor Calixto"
 ---
+# How to import shapefiles into Grasshopper using Urbano
+
+In this tutorial we are going to explore how we can import vector and features data from a shapefile into a Grasshopper definition using [Urbano](https://www.food4rhino.com/app/urbano) plugin.
+
+## Installing software dependencies for the tutorial
 

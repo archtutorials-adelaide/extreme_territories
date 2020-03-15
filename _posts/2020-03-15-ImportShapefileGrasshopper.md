@@ -80,14 +80,36 @@ To extract the shapefile features use the Urbano component `Deconstruct Metadata
 Connect the output `Metadata` of`Import Shapefile Features` component in input `Metadata` of `Deconstruct Metadata` component.
 The outputs will be divided in `Keys` and `Values`, organised in a datatree structure.
 
-![](/extreme_territories/images/Extract_Metadata_urbano?raw=true)
+![](/extreme_territories/images/Extract_Metadata_urbano.gif?raw=true)
 
 Now we can start to import the other shapefiles following the same previous steps.
 However, when we import new shapefiles it is important that all the information match to each other.
 To do that use the **output** `Translation Vector` from the first `Import Shapefile Features` component to correct the others `Import Shapefile Features`, connecting in the **input** `Translation Vector` which carries other shapefiles imported.
 
-![](/extreme_territories/images/Correct_vectors_urbano?raw=true)
+![](/extreme_territories/images/Correct_vectors_urbano.gif?raw=true)
 
+Then we need to clean the values and geometries that become invalid during the clipping process. First, we`Flatten`the `Polyline`output which are organised in branches, then we restructure the `datatree` using `Graft`component, isolating each polyline geometry in a different list. Then, we use `Clean Tree` component to clean the invalid geometry, including empty branches. `Clean tree component` is located under`Set > Tree > Clean Tree`. Then, we use the component `Tree statistics` to extract all the branches names with valid geometry to use as reference for the output `Values` from the `Deconstruct Metadata`  component. Finally, we use the `Tree Branch` component to select the valid features that match the valid polylines. The **output** `Paths`from `Tree statistics` in the **input** `Path` of `Tree Branch` and the output `Values` from `Deconstruct Metadata` in the input `Tree` of `Tree Branch`. Now our data is cleaned to be manipulated.
 
+![](/extreme_territories/images/cleaning_data_tree.gif?raw=true)
+
+So, the process to import shapefiles in Grasshopper finished, then we can start to manipulate the data to generate or extract the information that we want.
+For example, we can extract the number of dwelling that for each polyline that we have using the `index 0` of a  `List Item` component. 
+
+![](/extreme_territories/images/number_dwellings.png?raw=true)
+
+Then we can use that information to generating a heatmapping map based on the number of dwellings for each polyline.
+To do that we can extract the **high** and **low** number in our list as a domain with the component `Bounds` which is located under `Maths > Domain > Bounds`, before we connect our list in the bounds we need to `Flatten` the branches in a single list. Then, we deconstruct this domain using the component `Deconstruct Domain`located under `Maths > Domain > Deconstruct Domain`. We are going to use the `Gradient`component to build our heatmapping map, it is located under `Params > Input > Gradient`. Right click in the `Gradient`component and `Presets` to choose the color pattern to Red to BLue. It is important to notice that the pattern will be inverted to match the highest value in *red* and the lowest value in *blue*.so to do that we need to connect our `Ènd` output value from `Deconstruct Domain` in the `Lower Limit`value of the `Gradient` component and the `Start` output value from `Deconstruct Domain` in the `Upper Limit` value of the `Gradient` , then we connect our flattened list of values in the `Parameter` value of the `Gradient`. So, we have already built our heatmapping map based on the number of dwellings.
+
+![](/extreme_territories/images/gradient-dw.gif?raw=true)
+
+Then we can create a legend for our heatmapping map using `Legend Settings` located under `Extreme Territories > Display > Legend Settings`. This component ask for a `Legend Origin` as a `Point3d`, the `Legend_Size_x` and `Legend_Size_Y` which is related to the X and Y direction of the Legend Frame, an angle for rotate the legend `Angle_Rotation_Legend (degrees)`, a offset for the title of the legend `Legend_Offset`, the `Gradient Values`, the `Gradient Domain`, the desired number of divisions that your legend will represents `Number_of_divisions`, and which kind of number representation the legend will have `Domain Int (True) / Float (False)`, which can be in Integer (True)  or Float (False) as a boolean condition.
+
+![](/extreme_territories/images/legend.png?raw=true)
+
+Finally, we can start to play with the other shapefiles. for example, we can move `Greenspaces` and `Street Network`in the Z direction, displacing it into the space. To do that we can use the component `Move` component combined with `Unit Z` component and a `Number Slider` with a interactive numeric value for the translation. We can also combine it with Math operations, such as `Multiplication` to parametrically relate the two geometries. Finally we can use the component `Custom Preview` and `Colour Swatch`to change the colors of our geometries.
+
+![](/extreme_territories/images/shp_other_params?raw=true)
+
+So, we have finished ur first tutorial in how import shapefiles in Grasshopper using Urbano.
 
 

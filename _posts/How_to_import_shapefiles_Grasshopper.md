@@ -9,5 +9,5 @@ author: "Victor Calixto"
 
 In this tutorial we are going to explore how we can import vector and features data from a shapefile into a Grasshopper definition using [Urbano](https://www.food4rhino.com/app/urbano) plugin.
 
-## Installing software dependencies for the tutorial
+## Installing software dependencies for this tutorial
 

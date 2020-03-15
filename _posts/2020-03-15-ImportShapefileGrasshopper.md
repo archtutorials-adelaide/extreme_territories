@@ -39,7 +39,7 @@ To install the *Legend Settings* component, download [`Legend_Settings.ghuser`](
 
 Before we start to import our files into Grasshopper, it is important that we select the region that we will work on, avoing  to load unecessary information in your Grasshopper definition. We can prepare our data for the Grasshopper on a **GIS** environment, such as `QGIS` or `ArcMap`.  
 
-In this tutorial we are going to use `QGIS`, however, this procedure can be done in a similar way on `ArcMap`.
+In this tutorial we are going to use `QGIS`; however, this procedure can be done through a similar way on `ArcMap`.
 
 First, we need to create a new file on `QGIS` and insert the layers that we want to import into Grasshopper. Here we are going to use the `Suburbs_Territory`and `Street_Network_2019`, both files are part from the provided dataset `Datasets_LARCH7031_Part_1` in the discipline. To insert the layers go to `Layer > Add Vector layer` click on `...` and choose `Suburbs_Territory` click `Add`and `...` choose `Street_Network_2019` click `Add` and close the window.
 

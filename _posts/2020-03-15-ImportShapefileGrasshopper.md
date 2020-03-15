@@ -33,6 +33,6 @@ Go to [`https://www.food4rhino.com/app/bifocals`](https://www.food4rhino.com/app
 
 To install the *Legend Settings* component, download [`Legend_Settings.ghuser`](https://github.com/archtutorials-adelaide/extreme_territories/raw/master/assets/Legend_Settings.ghuser) into your computer, then open Rhino and Grasshopper and go to `File > Special Folder > User Object Folder` and copy `Legend_Settings.ghuser` in this folder. After that, close and open Rhino and Grasshopper again, It should appers on Grasshopper panel `Extreme Territories`.
 
-![](images/install_legend.gif?raw=true)
+![](/extreme_territories/images/install_legend.gif?raw=true)
 
 

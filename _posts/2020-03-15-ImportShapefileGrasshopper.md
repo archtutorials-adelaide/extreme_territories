@@ -110,6 +110,6 @@ Finally, we can start to play with the other shapefiles. for example, we can mov
 
 ![](/extreme_territories/images/shp_other_params.gif?raw=true)
 
-So, we have finished ur first tutorial in how import shapefiles in Grasshopper using Urbano.
+So, we have finished our first tutorial in how import shapefiles in Grasshopper using Urbano.
 
 

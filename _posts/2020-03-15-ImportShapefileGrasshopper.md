@@ -29,5 +29,9 @@ To install *Urbano* go to [`https://www.food4rhino.com/app/urbano`](https://www.
 
 Go to [`https://www.food4rhino.com/app/bifocals`](https://www.food4rhino.com/app/bifocals) and download `Bifocals Installer`. Run it to install *Bifocals* plugin.
 
+#### 1.2 Installing Legend Settings (ghuser)
+
+To install the *Legend Settings* component, download the file into your computer, then open Rhino and Grasshopper and go to `File > Special Folder > User Object Folder` and copy  in this folder.
+
 
 

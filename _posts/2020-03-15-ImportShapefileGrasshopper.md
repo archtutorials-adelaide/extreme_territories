@@ -25,6 +25,6 @@ This tutorial uses three plugins:
 
 #### 1.1 Installing Urbano and Bifocals
 
-To install Urbano go to `https://www.food4rhino.com/app/urbano `
+To install Urbano go to [`https://www.food4rhino.com/app/urbano`](https://www.food4rhino.com/app/urbano)
 
 

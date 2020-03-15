@@ -6,7 +6,7 @@ title:  "How to import a shapefile into Grasshopper using Urbano"
 author: "Victor Calixto"
 ---
 
-In this tutorial we are going to explore how to import vector and features data from a shapefile into a Grasshopper definition using [Urbano](https://www.food4rhino.com/app/urbano) plugin. We assume that you already have installed [Rhino 6](https://www.rhino3d.com/download) as well as completed Rhino and Grasshopper online tranning from the Assigment 3A from [Archistar Academy](https://academy.archistar.ai/) on Rhino and Grasshopper Essentials.
+In this tutorial we are going to explore how to import vector and features data from a shapefile into a Grasshopper definition using [Urbano](https://www.food4rhino.com/app/urbano) plugin. We assume that you already have installed [Rhino 6](https://www.rhino3d.com/download) as well as completed Rhino and Grasshopper online tranning from the Assessement 3A from [Archistar Academy](https://academy.archistar.ai/) on Rhino and Grasshopper Essentials.
 Therefore, this tutorial is divided in three parts:
 
 1. Installing software dependencies 

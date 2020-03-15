@@ -13,7 +13,7 @@ Therefore, this tutorial is divided in three parts:
 1. Preparing the shapefile in QGIS
 1. Import the shapefile into Grasshopper
 
-### 1 Installing software dependencies for this tutorial
+### 1. Installing software dependencies for this tutorial
 
 This tutorial uses three plugins:
 
@@ -35,6 +35,6 @@ To install the *Legend Settings* component, download [`Legend_Settings.ghuser`](
 
 ![](/extreme_territories/images/install_legend.gif?raw=true)
 
-### 2 Preparing shapefiles in QGis
+### 2. Preparing shapefiles in QGis
 
 

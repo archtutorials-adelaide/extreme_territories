@@ -10,8 +10,8 @@ In this tutorial we are going to explore how to import vector and features data 
 Therefore, this tutorial is divided in three parts:
 
 1. Installing software dependencies 
-1. Preparing the shapefile in QGIS
-1. Import the shapefile into Grasshopper
+1. Preparing shapefiles in QGIS
+1. Import shapefiles into Grasshopper
 
 ### 1. Installing software dependencies 
 
@@ -35,7 +35,7 @@ To install the *Legend Settings* component, download [`Legend_Settings.ghuser`](
 
 ![](/extreme_territories/images/install_legend.gif?raw=true)
 
-### 2. Preparing the shapefile in QGIS
+### 2. Preparing shapefiles in QGIS
 
 Before we start to import our files into Grasshopper, it is important that we select the region that we will work on, avoing  to load unecessary information in your Grasshopper definition. We can prepare our data for the Grasshopper on a **GIS** environment, such as `QGIS` or `ArcMap`.  
 
@@ -61,6 +61,6 @@ Add other layer, such as `Greenspaces`, and `LandUse` and repite the clip proces
 Now our files are ready for be imported into Grasshopper.
 
 
-### 3. Import the shapefile into Grasshopper
+### 3. Import shapefiles into Grasshopper
 
 

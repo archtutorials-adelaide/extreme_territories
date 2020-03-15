@@ -21,10 +21,10 @@ This tutorial uses three plugins:
 
 * *[Bifocals](https://www.food4rhino.com/app/bifocals)* it will be used to display at the same time names and icons of components on the Grasshopper canvas. It is a great resource for who are starting to use Grasshopper.
 
-* *[Legend_Settings]* it is a grasshopper cluster built for this discipline to provide settings parameters for a legend based on a <em> Gradient </em> component.
+* *[Legend_Settings]* it is a grasshopper cluster built for this discipline to provide settings parameters for a legend based on `Gradient` component.
 
 #### 1.1 Installing Urbano and Bifocals
 
-To install Urbano go to <em> https://www.food4rhino.com/app/urbano </em>
+To install Urbano go to `https://www.food4rhino.com/app/urbano `
 
 

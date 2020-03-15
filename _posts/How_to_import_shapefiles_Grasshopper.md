@@ -8,6 +8,12 @@ author: "Victor Calixto"
 # How to import shapefiles into Grasshopper using Urbano
 
 In this tutorial we are going to explore how we can import vector and features data from a shapefile into a Grasshopper definition using [Urbano](https://www.food4rhino.com/app/urbano) plugin.
+This tutorial is divided in three parts:
+
+* Installing software dependecies 
+* Preparing the shapefile in QGIS
+* Import the shapefile into Grasshopper
 
 ## Installing software dependencies for this tutorial
+
 

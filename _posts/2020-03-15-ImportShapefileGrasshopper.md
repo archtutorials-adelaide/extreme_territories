@@ -108,7 +108,7 @@ Then we can create a legend for our heatmapping map using `Legend Settings` loca
 
 Finally, we can start to play with the other shapefiles. for example, we can move `Greenspaces` and `Street Network`in the Z direction, displacing it into the space. To do that we can use the component `Move` component combined with `Unit Z` component and a `Number Slider` with a interactive numeric value for the translation. We can also combine it with Math operations, such as `Multiplication` to parametrically relate the two geometries. Finally we can use the component `Custom Preview` and `Colour Swatch`to change the colors of our geometries.
 
-![](/extreme_territories/images/shp_other_params?raw=true)
+![](/extreme_territories/images/shp_other_params.gif?raw=true)
 
 So, we have finished ur first tutorial in how import shapefiles in Grasshopper using Urbano.
 

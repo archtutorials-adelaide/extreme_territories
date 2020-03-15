@@ -68,4 +68,26 @@ Under `Urbano` table in the category `Input/Ouput` grab the component `Import Sh
 
 ![](/extreme_territories/images/import_shape_file_urbano.gif?raw=true)
 
+Connect the `Panel` parameter into `UTM` input of `Import Shapefile Features` component, then right click on `File Path` parameter and `Select one existent file` choose the clipped `LandUse.shp` which was created on **QGIS** the previous step.
+
+![](/extreme_territories/images/import_shape_file_urbano2.gif?raw=true)
+
+Then get a `Polyline`component under table `Curve` category `Spline` and conect `pts` output from `Import Shapefile Features` to `Vertices` input  in `Polyline ` component. Hide the preview of `Import Shapefile Features` to visualise the created lines.
+
+![](/extreme_territories/images/LandUse_urbano.gif?raw=true)
+
+To extract the shapefile features use the Urbano component `Deconstruct Metadata`under `Urbano` table category `Metadata`. 
+Connect the output `Metadata` of`Import Shapefile Features` component in input `Metadata` of `Deconstruct Metadata` component.
+The outputs will be divided in `Keys` and `Values`, organised in a datatree structure.
+
+![](/extreme_territories/images/Extract_Metadata_urbano?raw=true)
+
+Now we can start to import the other shapefiles following the same previous steps.
+However, when we import new shapefiles it is important that all the information match to each other.
+To do that use the **output** `Translation Vector` from the first `Import Shapefile Features` component to correct the others `Import Shapefile Features`, connecting in the **input** `Translation Vector` which carries other shapefiles imported.
+
+![](/extreme_territories/images/Correct_vectors_urbano?raw=true)
+
+
+
 

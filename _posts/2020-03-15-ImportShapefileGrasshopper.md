@@ -45,14 +45,14 @@ First, we need to create a new file on `QGIS` and insert the layers that we want
 
 ![](/extreme_territories/images/insert_layers.gif?raw=true)
 
-Second, we need to select the region that we want to work using right click on the layer `Suburbs_Territory`, then  `Open Attribute table` and cliking on the feature that corresponds to the desired area. The selected area should appers highlighted.
+Second, we need to select the region that we want to work using right click on the layer `Suburbs_Territory`, then  `Open Attribute table` and click on the feature that corresponds to the desired area. The selected area should appers highlighted.
 
 ![](/extreme_territories/images/select_attribute.gif?raw=true)
 
 
 Now we are going to clip the layer `Street_Network_2019` according the selected area. With the area selected go to menu `Vector > Geoprocessing Tool >  Clip`. In the parameter `Input Layer` choose `Street_Network_2019` and `Overlay layer` select `Suburbs_Territory` and check the box bellow `Selected features only` , then click `Run` and choose a folder and a name to the clipped file. A new layer should appers in the layer toolbar with the choosen name.
 
-![](/extreme_territories/images/clip_geometry.gif?raw=true)
+![](/extreme_territories/images/clip_gemetry.gif?raw=true)
 
 Add other layer, such as `Greenspaces`, and `LandUse` and repite the clip process using `Suburbs_Territory` as `Overlay layer`.
 

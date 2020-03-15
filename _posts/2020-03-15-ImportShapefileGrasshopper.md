@@ -58,7 +58,7 @@ Add other layer, such as `Greenspaces`, and `LandUse` and repite the clip proces
 
 ![](/extreme_territories/images/clipped_geometries.gif?raw=true)
 
-Now our files are ready for be imported into Grasshopper.
+Now our files are ready to be imported into Grasshopper.
 
 
 ### 3. Import shapefiles into Grasshopper

@@ -17,21 +17,21 @@ Therefore, this tutorial is divided in three parts:
 
 This tutorial uses three plugins:
 
-* *[Urbano](https://www.food4rhino.com/app/urbano)* which is a Urban Design Grasshopper plugin that for mobility and utilisation analisys of amenities, streets, and public spaces. Also, we can use it to import shapefiles into our Grasshopper definition.
+* **[Urbano](https://www.food4rhino.com/app/urbano)** which is a Urban Design Grasshopper plugin that for mobility and utilisation analisys of amenities, streets, and public spaces. Also, we can use it to import shapefiles into our Grasshopper definition.
 
-* *[Bifocals](https://www.food4rhino.com/app/bifocals)* it will be used to display at the same time names and icons of components on the Grasshopper canvas. It is a great resource for who are starting to use Grasshopper.
+* **[Bifocals](https://www.food4rhino.com/app/bifocals)** it will be used to display at the same time names and icons of components on the Grasshopper canvas. It is a great resource for who are starting to use Grasshopper.
 
-* *[Legend_Settings](https://github.com/archtutorials-adelaide/extreme_territories/raw/master/assets/Legend_Settings.ghuser)* it is a grasshopper cluster built for this discipline to provide settings parameters for a legend based on `Gradient` component.
+* **[Legend_Settings](https://github.com/archtutorials-adelaide/extreme_territories/raw/master/assets/Legend_Settings.ghuser)** it is a grasshopper cluster built for this discipline to provide settings parameters for a legend based on `Gradient` component.
 
 #### 1.1 Installing Urbano and Bifocals
 
-To install *Urbano* go to [`https://www.food4rhino.com/app/urbano`](https://www.food4rhino.com/app/urbano) and register on the site to have access to the download files. After register and login, download `Urbano v1.0 Installer` and executes the file to install.
+To install **Urbano** go to [`https://www.food4rhino.com/app/urbano`](https://www.food4rhino.com/app/urbano) and register on the site to have access to the download files. After register and login, download `Urbano v1.0 Installer` and executes the file to install.
 
-Go to [`https://www.food4rhino.com/app/bifocals`](https://www.food4rhino.com/app/bifocals) and download `Bifocals Installer`. Run it to install *Bifocals* plugin.
+Go to [`https://www.food4rhino.com/app/bifocals`](https://www.food4rhino.com/app/bifocals) and download `Bifocals Installer`. Run it to install **Bifocals** plugin.
 
 #### 1.2 Installing Legend Settings (ghuser)
 
 To install the *Legend Settings* component, download [`Legend_Settings.ghuser`](https://github.com/archtutorials-adelaide/extreme_territories/raw/master/assets/Legend_Settings.ghuser) into your computer, then open Rhino and Grasshopper and go to `File > Special Folder > User Object Folder` and copy `Legend_Settings.ghuser` in this folder. After that close and open Rhino and Grasshopper again, It should appers on Grasshopper panel `Extreme Territories`.
 
-![ /extreme_territories/images/install_legend.gif "Install Legend Component"]
+![/extreme_territories/images/install_legend.gif]
 

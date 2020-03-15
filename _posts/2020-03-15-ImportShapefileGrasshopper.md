@@ -31,7 +31,7 @@ Go to [`https://www.food4rhino.com/app/bifocals`](https://www.food4rhino.com/app
 
 #### 1.2 Installing Legend Settings (ghuser)
 
-To install the *Legend Settings* component, download the file into your computer, then open Rhino and Grasshopper and go to `File > Special Folder > User Object Folder` and copy  in this folder.
+To install the *Legend Settings* component, download [`Legend_Settings.ghuser`](https://github.com/archtutorials-adelaide/extreme_territories/raw/master/assets/Legend_Settings.ghuser) into your computer, then open Rhino and Grasshopper and go to `File > Special Folder > User Object Folder` and copy `Legend_Settings.ghuser` in this folder.
 
 
 

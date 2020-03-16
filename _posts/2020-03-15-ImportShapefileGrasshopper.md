@@ -70,7 +70,7 @@ Under `Urbano` table in the category `Input/Output` grab the component `Import S
 
 Connect the `Panel` parameter into `UTM` input of `Import Shapefile Features` component, then right-click on `File Path` parameter and `Select one existent file` choose the clipped `LandUse.shp` which was created on **QGIS** the previous step.
 
-![](/extreme_territories/images/import_shape_file_urbano2.gif?raw=true)
+![](/extreme_territories/images/import_urbano2.gif?raw=true)
 
 Then get a `Polyline`component under table `Curve` category `Spline` and connect `pts` output from `Import Shapefile Features` to `Vertices` input  in `Polyline ` component. Hide the preview of `Import Shapefile Features` to visualise the created lines.
 

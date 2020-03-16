@@ -9,7 +9,7 @@ baseurl: "/extreme_territories" # the subpath of your site, replace with the nam
 url: "" # the base hostname & protocol for your site, e.g. http://github-username.io
 
 title: Extreme Territories | LARCH7031 | Grasshopper Tutorials
-author: Victor Calixto, Juliana Croffi, and Dr.Carlos Barteshagi Koc
+author: Victor Calixto, Juliana Croffi, Dr.Carlos Barteshagi Koc, Dr. Philip Belesky, and Matthew Hawker.
 externallink: adelaide.edu.au #can include an external url here
 description:  >- # this means to ignore newlines until "baseurl:"
     A repository with Grasshopper tutorials of the course Extreme Territories - LARCH7031 | Landscape Urbanism Program | University of Adelaide

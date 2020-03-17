@@ -8,7 +8,7 @@ A Grasshopper tutorials repository for the course LARCH7031:Extreme Territories 
 
 Contacts:
 
-Carlos Bartesaghi Koc
+Dr Carlos Bartesaghi Koc
 
 [carlos.bartesaghikoc@adelaide.edu.au](mailto:carlos.bartesaghikoc@adelaide.edu.au )
 

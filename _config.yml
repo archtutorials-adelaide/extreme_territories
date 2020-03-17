@@ -10,7 +10,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://github-usernam
 
 title: LARCH7031 | Extreme Territories Studio | Grasshopper Tutorials
 author: Dr.Carlos Bartesaghi Koc, Victor Calixto, Juliana Croffi, Matthew Hawker, Dr. Philip Belesky, Kar Gan, Rasoul Rafat, and Janelle Arbon.
-externallink: https://bartesaghikoc.wixsite.com/academic/larch7031-extreme-territories #can include an external url here
+externallink: www.bartesaghikoc.wixsite.com/academic/larch7031-extreme-territories #can include an external url here
 description:  >- # this means to ignore newlines until "baseurl:"
     A repository with Grasshopper tutorials of the course LARCH7031 Extreme Territories Studio | Landscape Urbanism Program | University of Adelaide
 

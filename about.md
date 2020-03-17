@@ -4,13 +4,17 @@ title: About
 permalink: /about/
 ---
 
-A Grasshopper tutorials repository for the discipline Extreme Territories from Landscape Architecture Program, School of Architecture and Built Environment - University of Adelaide
+A Grasshopper tutorials repository for the course LARCH7031:Extreme Territories Studio from Landscape Architecture Program, School of Architecture and Built Environment - University of Adelaide
 
 Contacts:
 
 Carlos Bartesaghi Koc
 
 [carlos.bartesaghikoc@adelaide.edu.au](mailto:carlos.bartesaghikoc@adelaide.edu.au )
+
+Dr Philip Belesky (RMIT University)
+
+[philip.belesky@rmit.edu.au](mailto:philip.belesky@rmit.edu.au)
 
 Matthew Hawker
 
@@ -23,10 +27,6 @@ Juliana Croffi
 Victor Calixto
 
 [victor.calixto@unisa.edu.au](mailto:victor.calixto@unisa.edu.au])
-
-Dr Philip Belesky (RMIT University)
-
-[philip.belesky@rmit.edu.au](mailto:philip.belesky@rmit.edu.au)
 
 Rasoul Rafat
 

@@ -8,11 +8,11 @@
 baseurl: "/extreme_territories" # the subpath of your site, replace with the name of the github repository where you will host your site
 url: "" # the base hostname & protocol for your site, e.g. http://github-username.io
 
-title: Extreme Territories | LARCH7031 | Grasshopper Tutorials
-author: Dr.Carlos Barteshagi Koc, Victor Calixto, Juliana Croffi, Matthew Hawker, Dr. Philip Belesky, Kar Gan, Rasoul Rafat, and Janelle Arbon.
-externallink: adelaide.edu.au #can include an external url here
+title: LARCH7031 | Extreme Territories Studio | Grasshopper Tutorials
+author: Dr.Carlos Bartesaghi Koc, Victor Calixto, Juliana Croffi, Matthew Hawker, Dr. Philip Belesky, Kar Gan, Rasoul Rafat, and Janelle Arbon.
+externallink: https://bartesaghikoc.wixsite.com/academic/land7272-landscape-technology-1 #can include an external url here
 description:  >- # this means to ignore newlines until "baseurl:"
-    A repository with Grasshopper tutorials of the course Extreme Territories - LARCH7031 | Landscape Urbanism Program | University of Adelaide
+    A repository with Grasshopper tutorials of the course LARCH7031 Extreme Territories Studio | Landscape Urbanism Program | University of Adelaide
 
 
 # Build settings - no need to change these

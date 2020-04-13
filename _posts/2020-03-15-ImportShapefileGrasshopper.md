@@ -63,8 +63,11 @@ Now our files are ready to be imported into Grasshopper.
 
 ### 3. Importing shapefiles into Grasshopper
 
-Open Rhino and Grasshopper, create a new Grasshopper file and go to `Urbano` table in Grasshopper. 
-Under `Urbano` table in the category `Input/Output` grab the component `Import Shapefile Features`. Then, go to `Params` table in the `Primitive` category and grab the parameter `File Path`, after that go to `Input`category inside the same `Param`table and grab one `Panel` parameter and write `54H`, which represents the UTM zone for Adelaide.
+Open Rhino and Grasshopper,create a new Grasshopper file. Drag-and-drop `Bifocals` component into Grasshopper canvas to initialise the visualisation of both names in icons of Grasshopper components.
+
+![](/extreme_territories/images/bifocals.gif?raw=true)
+
+Go to `Urbano` table in Grasshopper.  Under `Urbano` table in the category `Input/Output` grab the component `Import Shapefile Features`. Then, go to `Params` table in the `Primitive` category and grab the parameter `File Path`, after that go to `Input`category inside the same `Param`table and grab one `Panel` parameter and write `54H`, which represents the UTM zone for Adelaide.
 
 ![](/extreme_territories/images/import_shape_file_urbano.gif?raw=true)
 

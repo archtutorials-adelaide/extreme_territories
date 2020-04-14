@@ -2,7 +2,7 @@
 layout: post
 date:   2020-04-14
 image: "/extreme_territories/images/import_DTM/frontpage.png"
-title:  "How to import DTM file Using Grasshopper / Docofossor"
+title:  "How to import a DTM file Using Grasshopper / Docofossor"
 author: "Victor Calixto"
 ---
 

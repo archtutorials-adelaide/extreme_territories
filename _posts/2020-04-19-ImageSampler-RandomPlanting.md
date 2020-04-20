@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2020-04-19
-image: "/extreme_territories/images/tutorial_image_sampler/frontpage.png"
+image: "/extreme_territories/images/image_sampler/frontpage.png"
 title:  "Image Sampler + Planting"
 author: "Victor Calixto"
 ---

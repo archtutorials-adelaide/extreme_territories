@@ -98,6 +98,6 @@ The final touch that we can do is change the colour of the mesh terrain.
 
 ![](/extreme_territories/images/tutorial_image_sampler/ajust_display.gif?raw=true)
 
-We have finished this tutorial. You can download the Grasshopper file [here](/extreme_territories/assets/mesh-image-sampler00.gh) and the image used on image sampler [here](/extreme_territories/assets/terrain_photoshop_grass.png).
+We have finished this tutorial. You can download the Grasshopper file [here](/extreme_territories/assets/mesh-image-sampler01.gh) and the image used on image sampler [here](/extreme_territories/assets/terrain_photoshop_grass.png).
 
 

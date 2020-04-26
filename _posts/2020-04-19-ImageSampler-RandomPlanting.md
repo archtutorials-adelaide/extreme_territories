@@ -59,26 +59,26 @@ However, we can not visualise the faces of the mesh because the option for displ
 ![](/extreme_territories/images/tutorial_image_sampler/preview_mesh_edges.gif?raw=true)
 
 
-Now we are going to `deconstruct` the mesh into vertices and faces (for more information about the composition of a mesh geometry check [here](https://en.wikipedia.org/wiki/Polygon_mesh). Go to `Mesh > Analysis > Deconstruct Mesh`, then connect the output `M`(Mesh) from `Mesh Plane` component into `M`(Mesh) input of `Deconstruct Mesh` component. We are going to use the mesh vertices to sample our image.
+Now we are going to get the center of each face mesh using `Face Normals` component (for more information about the composition of a mesh geometry check [here](https://en.wikipedia.org/wiki/Polygon_mesh). Go to `Mesh > Analysis > Face Normals`, then connect the output `M`(Mesh) from `Mesh Plane` component into `M`(Mesh) input of `Face Normals` component. 
 
 
-![](/extreme_territories/images/tutorial_image_sampler/deconstruct_mesh.gif?raw=true)
+![](/extreme_territories/images/tutorial_image_sampler/facenormal.gif?raw=true)
 
 
-Now it is time to sample our image using the `Image Sampler` component. Go to `Parameters > Input > Image Sampler` and drop the component into Grasshopper canvas. We are going to connect the output `V`(Vertices) from `Deconstruct Mesh`component into it. What it does is match pixels into points, returning pixel features, such as colour, saturation, alpha channel, etc that are going to be associated to X and Y coordinates of the mesh's faces. We need to configure it component for it matches right. To do that, double click on `Image Sampler` component and then adjust the domain of `X` and `Y` to match the size of our image, which are in that case the domain for `X` go from `0 to 1000` and for `Y`goes from `0 to 2000`. After that, we click on `...` to choose the image. By default, the image sampler will return `colour` values in `RGB` format. So, we are going to change it for `Colour Brightness`, in which the value is represented on a domain that goes from `0 to 1`, from absolute black `0` to absolute white `1`.     
+Now it is time to sample our image using the `Image Sampler` component. Go to `Parameters > Input > Image Sampler` and drop the component into Grasshopper canvas. We are going to connect the output `C`(Center) from `Face Normals`component into it. What it does is match pixels into points, returning pixel features, such as colour, saturation, alpha channel, etc that are going to be associated to X and Y coordinates of the mesh's faces. We need to configure it component for it matches right. To do that, double click on `Image Sampler` component and then adjust the domain of `X` and `Y` to match the size of our image, which are in that case the domain for `X` go from `0 to 1000` and for `Y`goes from `0 to 2000`. After that, we click on `...` to choose the image. By default, the image sampler will return `colour` values in `RGB` format. So, we are going to change it for `Colour Brightness`, in which the value is represented on a domain that goes from `0 to 1`, from absolute black `0` to absolute white `1`.     
 
-![](/extreme_territories/images/tutorial_image_sampler/image_sampler.gif?raw=true)
+![](/extreme_territories/images/tutorial_image_sampler/image-sampler-face.gif?raw=true)
 
 So, we can use a logical operator to filter the values that we are interested in. For example, if we want to get the values that are close to black we can use the logical operator `Smaller than` and set it to a value close to `0` for example `0.001`. The component `Smaller Than` returns a `True` or `False` value. We can combine those results with the component `Cull Pattern` which filters a list based on a pattern defined by boolean values (True or False). It will get all values that are bellow to `0.001`.
 
-![](/extreme_territories/images/tutorial_image_sampler/logical_operator.gif?raw=true)
+![](/extreme_territories/images/tutorial_image_sampler/smaller-face.gif?raw=true)
 
 
 ### 3. Populate the mesh with trees
 
 In this part, we are going start to create the logic for populating our geometry with trees. The first step we need to define how many trees we want to spread through the sampled area. To do that we can use the `Random Reduce ` component, which receive as inputs: the List `L`, the number of items to remove from the list `R` and the seed `S` which swap randomly the chosen elements to remove. So, if we want to know how many trees we need to remove to stay with the number of trees that we want to plant, we first need to count how many points we currently have on the area, then subtract by a number of trees that we want to plant. To do that we use the component `List Lenght` located on `Set > List > List Lenght` to the length of the list, then `Subtraction` component under `Math > Operators > Subtraction`. For example, if we want to plant `3000` trees, we subtract `3000` from the `List Lenght` output. After that, we connect the output `L`(list) from `Cull Pattern` component into input `L`(list) from `Random Reduce` component, then the output from `Subtraction` component into input `R` (number to reduce) of `Random Reduce` component. Finally, we put a number to control the `S` (seed) of our possibilities of distributions. 
 
-![](/extreme_territories/images/tutorial_image_sampler/logical_operator.gif?raw=true)
+![](/extreme_territories/images/tutorial_image_sampler/random-reduce.gif?raw=true)
 
 Now we need to project the points onto our mesh geometry. We can use the component `Mesh Ray`, which creates an infinite line that intersects a mesh based on points and a direction (vector). Currently, the points are bidimensional with a `Z` position equal `0`, therefore the direction to project it onto our terrain is to up, or in the positive `Z` vector. First, we turn on the visualisation of the mesh terrain. Then, we get the component `Mesh | Ray` under `Intersect > Mathematical > Mesh | Ray`. We connect the mesh output from docofossor `Grid Mesh` component into input `M`(Mesh) of the component `Mesh | Ray` and the component `Unit Z` under the table `Vector > Vector >  Unit Z` into the input `D` (direction) of the component `Mesh | Ray`. Finally, we connect the points from `Random Reduce` into input `P` of `Mesh | Ray` component. It will project our point on the top of the mesh terrain.   
 

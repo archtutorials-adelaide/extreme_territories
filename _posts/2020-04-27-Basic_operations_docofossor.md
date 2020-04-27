@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2020-04-27
-image: "/extreme_territories/images/tutorial1_tumb.png"
+image: "/extreme_territories/images/basicOperations/logodocofossor.png"
 title:  "Docofossor Terrain Manipulation Components - Basic Operations"
 author: "Juliana Croffi Calixto"
 ---

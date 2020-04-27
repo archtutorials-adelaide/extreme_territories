@@ -18,7 +18,7 @@ Located on `Docofossor > Operations Relative > Fill on Path`
 ![](/extreme_territories/images/basicOperations/COMPONENT_LOCATION_1.jpg?raw=true)
 
 
-* Docofossor List `(df)` will be THE LAST input that you will connect.
+* Docofossor List `(df)` will be **THE LAST** input that you will connect.
 * First you will need to draw a curve in Rhino where you want to modify the terrain.
 
 In Grasshopper, use the Curve parameter to reference your curve: right-click on the `curve parameter> Select one curve > click on the curve that you draw`. 

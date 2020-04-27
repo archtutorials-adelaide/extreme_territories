@@ -69,4 +69,4 @@ In this component the height of the hill you are creating will be attached to th
 
 * Modify the Width, Slops, Maximum Distance.
 
-![](/extreme_territories/images/basicOperations/GIF_07.gif?raw=true)
+![](/extreme_territories/images/basicOperations/GIF_07-min.gif?raw=true)

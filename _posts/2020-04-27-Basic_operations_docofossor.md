@@ -15,7 +15,7 @@ These components will use curves to modify the terrain mesh.
 Located on `Docofossor > Operations Relative > Fill on Path`
 
 
-![](/extreme_territories/images/basicOperation/COMPONENT_LOCATION_1.jpg?raw=true)
+![](/extreme_territories/images/basicOperations/COMPONENT_LOCATION_1.jpg?raw=true)
 
 
 * Docofossor List `(df)` will be THE LAST input that you will connect.
@@ -31,29 +31,29 @@ In Grasshopper, use the Curve parameter to reference your curve: right-click on 
 * After setting up all the inputs of the component you will connect the Docofossor List to the input `“df”`. Wait for it to run. Connect the output from Fill on Path to the component Grid Mesh to visualise the modified mesh.
 
 
-![](/extreme_territories/images/basicOperation/GIF_01.gif?raw=true)
+![](/extreme_territories/images/basicOperations/GIF_01.gif?raw=true)
 
 Modify the Maximum height at the centre `(mxh)`
 
-![](/extreme_territories/images/basicOperation/GIF_02.gif?raw=true)
+![](/extreme_territories/images/basicOperations/GIF_02.gif?raw=true)
 
 Modify the Width `(wt)`
 
-![](/extreme_territories/images/basicOperation/GIF_03.gif?raw=true)
+![](/extreme_territories/images/basicOperations/GIF_03.gif?raw=true)
 
 Modify the Slop Angle `(sa)`
 
-![](/extreme_territories/images/basicOperation/GIF_04.gif?raw=true)
+![](/extreme_territories/images/basicOperations/GIF_04.gif?raw=true)
 
 Modify the Maximum Distance `(d)`
 
-![](/extreme_territories/images/basicOperation/GIF_05.gif?raw=true)
+![](/extreme_territories/images/basicOperations/GIF_05.gif?raw=true)
 
 #### 1.2 Fill in Path
 
 Located on `Docofossor > Operations Absolute > Fill in Path`
 
-![](/extreme_territories/images/basicOperation/COMPONENT_LOCATION_2.jpg?raw=true)
+![](/extreme_territories/images/basicOperations/COMPONENT_LOCATION_2.jpg?raw=true)
 
 * Docofossor List `(df)` will be THE LAST input that you will connect.
 * This component is quite similar to the previous one. 
@@ -65,8 +65,8 @@ In this component the height of the hill you are creating will be attached to th
 * Give the maximum distance of the slop `(d)`.
 * Connect the Docofossor List `(df)` to run the component, then connect the output to the Grid Mesh to visualise the modification.
 
-![](/extreme_territories/images/basicOperation/GIF_06.gif?raw=true)
+![](/extreme_territories/images/basicOperations/GIF_06.gif?raw=true)
 
 * Modify the Width, Slops, Maximum Distance.
 
-![](/extreme_territories/images/basicOperation/GIF_07.gif?raw=true)
+![](/extreme_territories/images/basicOperations/GIF_07.gif?raw=true)

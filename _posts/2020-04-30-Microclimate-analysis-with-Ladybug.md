@@ -6,8 +6,9 @@ title:  "Microclimate analysis with Ladybug"
 author: "Juliana Croffi Calixto"
 ---
 
-Download Grasshopper definition [here](/extreme_territories/assets/LARCH7031_WORKSHOP_LADYBUG_00.gh )
-Download EPW file [here](/extreme_territories/assets/AUS_SA_Noarlunga.948080_TMYx.2004-2018.epw )
+Download Grasshopper definition [here](/extreme_territories/assets/LARCH7031_WORKSHOP_LADYBUG_00.gh)
+
+Download EPW file [here](/extreme_territories/assets/AUS_SA_Noarlunga.948080_TMYx.2004-2018.epw)
 
 ### 1. Visualizing Weather Data
 

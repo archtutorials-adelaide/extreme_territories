@@ -6,6 +6,9 @@ title:  "Docofossor Terrain Manipulation Components - Basic Operations"
 author: "Juliana Croffi Calixto"
 ---
 
+Download Rhino file [here](/extreme_territories/assets/LARCH7031_WORKSHOP.3dm )
+Download Grasshopper definition [here](extreme_territories/assets/LARCH7031_WORKSHOP_BASIC OPERATIONS_00.gh)
+
 ### 1. Operation with curves
 
 These components will use curves to modify the terrain mesh.

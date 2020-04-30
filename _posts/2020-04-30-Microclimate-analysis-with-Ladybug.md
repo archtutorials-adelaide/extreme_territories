@@ -18,7 +18,7 @@ The data will be used to perform analysis with Ladybug Located on `Ladybug > 0|L
 
 
 * The EPW file must to be in the `C:` Driver (any folder)
-* Right-click on the path, Select an existing file, select the EPW file.
+* Right-click on the `path`, Select an existing file, select the EPW file.
 * Connect the path to the `“_epwFile”` input
 
 #### 1.2 Ladybug_SunPath
@@ -28,9 +28,9 @@ Located on `Ladybug > 2|VisualizeWeatherData > Ladybug_SunPath`
 
 ![](/extreme_territories/images/microclimate/LB_GIF_01.gif?raw=true)
  
-* The north is set to the Y-axis by default. You can change it connecting a Vector to the input `“_north”`
-* Connect to `“_location”` the output `“location”` from the Ladybug_Import EPW component.
-* To set the hours of analysis use the sliders connected to the Series components. The start number is the first hour of the day for the analysis and the count number is the amount of hours in sequence.
+* The north is set to the Y-axis by default. You can change it connecting a `Vector` to the input `“_north”`
+* Connect to `“_location”` the output `“location”` from the `Ladybug_Import EPW` component.
+* To set the hours of analysis use the `sliders` connected to the `Series` components. The start number is the first hour of the day for the analysis and the count number is the amount of hours in sequence.
 
 #### 1.3 Ladybug_WindRose
 
@@ -40,31 +40,31 @@ Located on `Ladybug > 2|VisualizeWeatherData > Ladybug_WindRose`
 ![](/extreme_territories/images/microclimate/LB_GIF_02.gif?raw=true)
  
 * The north is set to the Y-axis by default. You can change it connecting a Vector to the input `“_north”`
-* Connect to `“_hourlyWindDirection”` the output `“WindDirection”` from the Ladybug_Import EPW component.
-* Connect to `“_hourlyWindSpeed”` the output `“WindSpeed”` from the Ladybug_Import EPW component.
-* Set the Boolean Toggle to True to run the component.
+* Connect to `“_hourlyWindDirection”` the output `“WindDirection”` from the `Ladybug_Import EPW` component.
+* Connect to `“_hourlyWindSpeed”` the output `“WindSpeed”` from the `Ladybug_Import EPW` component.
+* Set the `Boolean Toggle` to `True` to run the component.
 
 
 ### 2. Environmental Analysis
 
 #### 2.1 SunLight Hours Analysis
 
-This component calculates the number of hours of direct sun-light received by an input geometry using sun vectors from the sunPath component.
+This component calculates the number of hours of direct sun-light received by an input geometry using sun vectors from the `sunPath` component.
 Located on `Ladybug > 3| EnvironmentalAnalysis > Ladybug_ SunLight Hours Analysis`
 
 ![](/extreme_territories/images/microclimate/LB_GIF_03.gif?raw=true)
 
-* The north is set to the Y-axis by default. You can change it connecting a Vector to the input `“_north”`
-* First, let’s reduce the number of mesh face in order to decrease the analysis time. Use the component Remesh Square from the plugin Bison located on `Bison > Mesh > Remesh Square`. 
+* The north is set to the Y-axis by default. You can change it connecting a `Vector` to the input `“_north”`
+* First, let’s reduce the number of mesh face in order to decrease the analysis time. Use the component `Remesh Square` from the plugin Bison located on `Bison > Mesh > Remesh Square`. 
 
 Increase the dimension of the Grid input do reduce the number of faces of the mesh.
 
 * Connect the reduced terrain mesh to the `“_geometry”` input. 
-* Connect to `“_sunVectors”` the output `“sunVectors”` from the Ladybug_sunPath component.
-* Set the Boolean Toggle to True to run the component.
-* Change the High bound value to match the high bond from the analysis result.
-* Change the Gradient index to change the colours of the legend.
-* Change the month on the sunPath component and run the analysis again.
+* Connect to `“_sunVectors”` the output `“sunVectors”` from the `Ladybug_sunPath` component.
+* Set the `Boolean Toggle` to `True` to run the component.
+* Change the `High bound` value to match the high bond from the analysis result.
+* Change the `Gradient index` to change the colours of the legend.
+* Change the `month` on the `sunPath` component and run the analysis again.
 
 #### 2.1.1 Context
 

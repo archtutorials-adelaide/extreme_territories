@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2020-04-30
-image: "/extreme_territories/images/microclimate/logodocofossor.png"
+image: "/extreme_territories/images/microclimate/LARCH_LADYBUG_08.jpg"
 title:  "Microclimate analysis with Ladybug"
 author: "Juliana Croffi Calixto"
 ---

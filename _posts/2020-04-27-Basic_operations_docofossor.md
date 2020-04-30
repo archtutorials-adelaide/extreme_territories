@@ -26,7 +26,7 @@ Located on `Docofossor > Operations Relative > Fill on Path`
 * The input Slop Angle `(sa)` is the angle, in degrees, of the slop.
 * You can have two different slops, for each side of the curve. If you give a value to the input `"sa2"` it will assign the value for the slop on the right side of the curve. If you don’t give any value to it, by default it will use the same value from `"sa"`.
 * The input Maximum Distance `(d)` is the maximum distance of the slop from the curve.
-* After setting up all the inputs of the component you will connect the Docofossor List to the input `“df”`. Wait for it to run. Connect the output from Fill on Path to the component Grid Mesh to visualise the modified mesh.
+* After setting up all the inputs of the component you will connect the Docofossor List to the input `“df”`. Wait for it to run. Connect the output from `Fill on Path` to the component `Grid Mesh` to visualise the modified mesh.
 
 
 ![](/extreme_territories/images/basicOperation/GIF_01.gif?raw=true)
@@ -65,7 +65,7 @@ Located on `Docofossor > Operations Absolute > Fill in Path`
 
 ![](/extreme_territories/images/basicOperation/GIF_06.gif?raw=true)
 
-* Modify the Width, Slops, Maximum Distance.
+* Modify the `Width`, `Slops`, `Maximum Distance`.
 
 ![](/extreme_territories/images/basicOperation/GIF_07-min.gif?raw=true)
 
@@ -76,13 +76,13 @@ Located on `Docofossor > Operations Relative > Cut on Path`
 
 ![](/extreme_territories/images/basicOperation/IMG_01.jpg?raw=true)
 
-* Docofossor List (df) will be THE LAST input that you will connect.
-* Draw and reference a Curve to create the path (crv).
-* Give a value to the Maximum Depth at the centre input (mxd)
-* Give a value to the Width (wt) that you want for the path.
-* Give a value for the slop (sa).
-* Give the maximum distance of the slop (d).
-* Connect the Docofossor List (df) to run the component, then connect the output to the Grid Mesh to visualise the modification.
+* Docofossor List `(df)` will be THE LAST input that you will connect.
+* Draw and reference a Curve to create the path `(crv)`.
+* Give a value to the `Maximum Depth` at the centre input `(mxd)`.
+* Give a value to the Width `(wt)` that you want for the path.
+* Give a value for the slop `(sa)`.
+* Give the maximum distance of the slop `(d)`.
+* Connect the Docofossor List `(df)` to run the component, then connect the output to the `Grid Mesh` to visualise the modification.
 
 #### 1.4 Cut in Path
 
@@ -152,7 +152,7 @@ Located on `Docofossor > Operations Relative > Cut on Point`
 
 ![](/extreme_territories/images/basicOperation/IMG_06.jpg?raw=true)
 
-* This component works the same way as Fill on Point to create Cuts instead.
+* This component works the same way as `Fill on Point` to create Cuts instead.
 
 #### 2.3 Cut in Point
 
@@ -161,7 +161,7 @@ Located on `Docofossor > Operations Absolute > Cut in Point`
 
 ![](/extreme_territories/images/basicOperation/IMG_07.jpg?raw=true)
 
-* This component works the same way as Fill in Point to create Cuts instead.
+* This component works the same way as `Fill in Point` to create Cuts instead.
 
 ### 3. Operations with Regions and Surfaces.
 

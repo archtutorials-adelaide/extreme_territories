@@ -17,7 +17,7 @@ The data will be used to perform analysis with Ladybug Located on `Ladybug > 0|L
 ![](/extreme_territories/images/microclimate/LB_01.jpg?raw=true)
 
 
-* The EPW file must to be in the C: Driver (any folder)
+* The EPW file must to be in the `C:` Driver (any folder)
 * Right-click on the path, Select an existing file, select the EPW file.
 * Connect the path to the `“_epwFile”` input
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2020-04-27
-image: "/extreme_territories/images/roboticlandscapes.jpg"
+image: "/extreme_territories/images/basicOperations/roboticlandscapes.jpg"
 title:  "Docofossor Terrain Manipulation Components - Basic Operations"
 author: "Juliana Croffi Calixto"
 ---
@@ -16,7 +16,7 @@ This component creates a relative fill along a path curve.
 Located on `Docofossor > Operations Relative > Fill on Path`
 
 
-![](/extreme_territories/images/basicOperation/COMPONENT_LOCATION_1.jpg?raw=true)
+![](/extreme_territories/images/basicOperations/COMPONENT_LOCATION_1.jpg?raw=true)
 
 
 * Docofossor List `(df)` will be THE LAST input that you will connect.
@@ -29,23 +29,23 @@ Located on `Docofossor > Operations Relative > Fill on Path`
 * After setting up all the inputs of the component you will connect the Docofossor List to the input `“df”`. Wait for it to run. Connect the output from `Fill on Path` to the component `Grid Mesh` to visualise the modified mesh.
 
 
-![](/extreme_territories/images/basicOperation/GIF_01.gif?raw=true)
+![](/extreme_territories/images/basicOperations/GIF_01.gif?raw=true)
 
 Modify the Maximum height at the centre `(mxh)`
 
-![](/extreme_territories/images/basicOperation/GIF_02.gif?raw=true)
+![](/extreme_territories/images/basicOperations/GIF_02.gif?raw=true)
 
 Modify the Width `(wt)`
 
-![](/extreme_territories/images/basicOperation/GIF_03.gif?raw=true)
+![](/extreme_territories/images/basicOperations/GIF_03.gif?raw=true)
 
 Modify the Slop Angle `(sa)`
 
-![](/extreme_territories/images/basicOperation/GIF_04.gif?raw=true)
+![](/extreme_territories/images/basicOperations/GIF_04.gif?raw=true)
 
 Modify the Maximum Distance `(d)`
 
-![](/extreme_territories/images/basicOperation/GIF_05.gif?raw=true)
+![](/extreme_territories/images/basicOperations/GIF_05.gif?raw=true)
 
 #### 1.2 Fill in Path
 
@@ -53,7 +53,7 @@ This component creates a trapezoidal fill along a path curve.
 
 Located on `Docofossor > Operations Absolute > Fill in Path`
 
-![](/extreme_territories/images/basicOperation/COMPONENT_LOCATION_2.jpg?raw=true)
+![](/extreme_territories/images/basicOperations/COMPONENT_LOCATION_2.jpg?raw=true)
 
 * Docofossor List `(df)` will be THE LAST input that you will connect.
 
@@ -63,18 +63,18 @@ Located on `Docofossor > Operations Absolute > Fill in Path`
 * Give the maximum distance of the slop `(d)`.
 * Connect the Docofossor List `(df)` to run the component, then connect the output to the Grid Mesh to visualise the modification.
 
-![](/extreme_territories/images/basicOperation/GIF_06.gif?raw=true)
+![](/extreme_territories/images/basicOperations/GIF_06.gif?raw=true)
 
 * Modify the `Width`, `Slops`, `Maximum Distance`.
 
-![](/extreme_territories/images/basicOperation/GIF_07-min.gif?raw=true)
+![](/extreme_territories/images/basicOperations/GIF_07-min.gif?raw=true)
 
 #### 1.3 Cut on Path
 
 This component creates a relative cut along a path curve.
 Located on `Docofossor > Operations Relative > Cut on Path`
 
-![](/extreme_territories/images/basicOperation/IMG_01.jpg?raw=true)
+![](/extreme_territories/images/basicOperations/IMG_01.jpg?raw=true)
 
 * Docofossor List `(df)` will be THE LAST input that you will connect.
 * Draw and reference a Curve to create the path `(crv)`.
@@ -89,7 +89,7 @@ Located on `Docofossor > Operations Relative > Cut on Path`
 This component creates a trapezoidal cut along a path curve.
 Located on `Docofossor > Operations Absolute > Cut in Path`
 
-![](/extreme_territories/images/basicOperation/IMG_02.jpg?raw=true)
+![](/extreme_territories/images/basicOperations/IMG_02.jpg?raw=true)
 
 * Docofossor List `(df)` will be THE LAST input that you will connect.
 * Draw and reference a Curve to create the path `(crv)`.
@@ -104,7 +104,7 @@ Located on `Docofossor > Operations Absolute > Cut in Path`
 This component creates a trapezoidal cut and fill along a path curve.
 Located on `Docofossor > Operations Absolute > Cut & fill in Path`
 
-![](/extreme_territories/images/basicOperation/IMG_03.jpg?raw=true)
+![](/extreme_territories/images/basicOperations/IMG_03.jpg?raw=true)
 
 
 * Docofossor List `(df)` will be THE LAST input that you will connect.
@@ -124,7 +124,7 @@ These components will use points to modify the terrain mesh.
 This component creates relative fill on points as sine curve.
 Located on `Docofossor > Operations Relative > Fill on Point`
 
-![](/extreme_territories/images/basicOperation/IMG_04.jpg?raw=true)
+![](/extreme_territories/images/basicOperations/IMG_04.jpg?raw=true)
 
 * Docofossor List `(df)` will be THE LAST input that you will connect.
 * Define the Point `(s)` to create the fill(s) `(pt)`.
@@ -137,7 +137,7 @@ Located on `Docofossor > Operations Relative > Fill on Point`
 This component creates fill on points.
 Located on `Docofossor > Operations Absolute > Fill in Point`
 
-![](/extreme_territories/images/basicOperation/IMG_05.jpg?raw=true)
+![](/extreme_territories/images/basicOperations/IMG_05.jpg?raw=true)
 
 * Docofossor List `(df)` will be THE LAST input that you will connect.
 * Define the Point(s) to create the fill(s) `(pt)`.
@@ -150,7 +150,7 @@ Located on `Docofossor > Operations Absolute > Fill in Point`
 This component creates relative cuts on points as sine curve.
 Located on `Docofossor > Operations Relative > Cut on Point`
 
-![](/extreme_territories/images/basicOperation/IMG_06.jpg?raw=true)
+![](/extreme_territories/images/basicOperations/IMG_06.jpg?raw=true)
 
 * This component works the same way as `Fill on Point` to create Cuts instead.
 
@@ -159,7 +159,7 @@ Located on `Docofossor > Operations Relative > Cut on Point`
 This component creates cuts on points.
 Located on `Docofossor > Operations Absolute > Cut in Point`
 
-![](/extreme_territories/images/basicOperation/IMG_07.jpg?raw=true)
+![](/extreme_territories/images/basicOperations/IMG_07.jpg?raw=true)
 
 * This component works the same way as `Fill in Point` to create Cuts instead.
 
@@ -171,7 +171,7 @@ This component creates relative fill within a boundary curve.
 Located on `Docofossor > Operations Relative > Fill on Area`
 
 
-![](/extreme_territories/images/basicOperation/IMG_08.jpg?raw=true)
+![](/extreme_territories/images/basicOperations/IMG_08.jpg?raw=true)
 
 * Docofossor List `(df)` will be THE LAST input that you will connect.
 * Define Boundary Curve to create the fill `(crv)`. The curve must to be planar.
@@ -184,7 +184,7 @@ Located on `Docofossor > Operations Relative > Fill on Area`
 This component creates a fill with a given surface.
 Located on `Docofossor > Operations Absolute > Fill in Surface`
 
-![](/extreme_territories/images/basicOperation/IMG_09.jpg?raw=true)
+![](/extreme_territories/images/basicOperations/IMG_09.jpg?raw=true)
 
 * Docofossor List `(df)` will be THE LAST input that you will connect.
 * Create a Surface in Rhino and reference it to create the fill `(srf)`. The surface must to be above the mesh.
@@ -197,7 +197,7 @@ Located on `Docofossor > Operations Absolute > Fill in Surface`
 This component creates relative cut within a boundary curve.
 Located on `Docofossor > Operations Relative > Cut on Area`
 
-![](/extreme_territories/images/basicOperation/IMG_10.jpg?raw=true)
+![](/extreme_territories/images/basicOperations/IMG_10.jpg?raw=true)
 
 * Docofossor List `(df)` will be THE LAST input that you will connect.
 * Define Boundary Curve to create the cut `(crv)`. The curve must to be planar.
@@ -210,7 +210,7 @@ Located on `Docofossor > Operations Relative > Cut on Area`
 This component creates a cut with a given surface.
 Located on `Docofossor > Operations Absolute > Cut in Surface`
 
-![](/extreme_territories/images/basicOperation/IMG_11.jpg?raw=true)
+![](/extreme_territories/images/basicOperations/IMG_11.jpg?raw=true)
 
 
 * Docofossor List `(df)` will be THE LAST input that you will connect.
@@ -224,7 +224,7 @@ Located on `Docofossor > Operations Absolute > Cut in Surface`
 This component creates a cut and fill with a given surface.
 Located on `Docofossor > Operations Absolute > Cut & Fill in Surface`
 
-![](/extreme_territories/images/basicOperation/IMG_12.jpg?raw=true)
+![](/extreme_territories/images/basicOperations/IMG_12.jpg?raw=true)
 
 * Docofossor List `(df)` will be THE LAST input that you will connect.
 * Create a Surface in Rhino and reference it to create the fill `(srf)`. The surface must cross the mesh.

@@ -78,5 +78,4 @@ Our final step is to generate the mesh from the `df` output. Go to `Docofossor >
 ![](/extreme_territories/images/import_DTM/grid_mesh.gif?raw=true)
 
 So, we have finished this tutorial on how to import DTM into Grasshopper using Docofossor.
-The Grasshopper definition of this tutorial can be downloaded [here](/extreme_territories/assets/import_DTM_docofossor.gh).
-
+The Grasshopper definition of this tutorial can be downloaded [here](/extreme_territories/assets/import_DTM_docofossor.gh), and the DTM file can be downloaded [here](https://universityofadelaide.box.com/s/3cyhwsrx541o31yp2hggxd6pjkw65z0y).
